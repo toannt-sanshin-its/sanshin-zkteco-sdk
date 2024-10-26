@@ -13,13 +13,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Laradevsbd\\Zkteco\\": "src/"
+            "SanshinLaradevsbd\\Zkteco\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Laradevsbd\\Zkteco\\ZktecoServiceProvider"
+                "SanshinLaradevsbd\\Zkteco\\ZktecoServiceProvider"
             ]
         }
     }
