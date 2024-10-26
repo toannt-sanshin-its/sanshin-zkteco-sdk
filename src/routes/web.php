@@ -1,6 +1,6 @@
 <?php
 
-Route::group(['namespace'=>'SanshinLaradevsbd\Zkteco\Http\Controllers'],function (){
+Route::group(['namespace'=>'Sanshin\Zkteco\Http\Controllers'],function (){
     Route::get('zkteco','ZktecoController@index');
 });
 

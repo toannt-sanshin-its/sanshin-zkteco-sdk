@@ -1,10 +1,10 @@
 <?php
 
-namespace SanshinLaradevsbd\Zkteco\Http\Controllers;
+namespace Sanshin\Zkteco\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use SanshinLaradevsbd\Zkteco\Http\Library\ZktecoLib;
+use Sanshin\Zkteco\Http\Library\ZktecoLib;
 
 class ZktecoController extends Controller
 {

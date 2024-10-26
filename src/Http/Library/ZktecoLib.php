@@ -1,6 +1,6 @@
 <?php
 
-namespace SanshinLaradevsbd\Zkteco\Http\Library;
+namespace Sanshin\Zkteco\Http\Library;
 
 
 class ZktecoLib
@@ -9,7 +9,7 @@ class ZktecoLib
 
     public function __construct($ip,$port=4370)
     {
-        $this->zk = new \SanshinLaradevsbd\Zkteco\Http\Library\ZKLib($ip, $port);
+        $this->zk = new \Sanshin\Zkteco\Http\Library\ZKLib($ip, $port);
         $ret = $this->zk->connect();
     }
 

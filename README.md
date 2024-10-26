@@ -1,6 +1,6 @@
-[![Issues](https://img.shields.io/github/issues/SanshinLaradevsbd/zkteco-sdk-laravel.svg?style=flat-square)](https://github.com/nurkarim/zkteco-sdk-laravel/issues)
-[![Stars](https://img.shields.io/github/stars/SanshinLaradevsbd/zkteco-sdk-laravel.svg?style=flat-square)](https://github.com/nurkarim/zkteco-sdk-laravel/stargazers)
-[![Forks](https://img.shields.io/github/forks/SanshinLaradevsbd/zkteco-sdk-laravel.svg?style=flat-square)](https://github.com/nurkarim/zkteco-sdk-laravel/network/members)
+[![Issues](https://img.shields.io/github/issues/Sanshin/zkteco-sdk-laravel.svg?style=flat-square)](https://github.com/nurkarim/zkteco-sdk-laravel/issues)
+[![Stars](https://img.shields.io/github/stars/Sanshin/zkteco-sdk-laravel.svg?style=flat-square)](https://github.com/nurkarim/zkteco-sdk-laravel/stargazers)
+[![Forks](https://img.shields.io/github/forks/Sanshin/zkteco-sdk-laravel.svg?style=flat-square)](https://github.com/nurkarim/zkteco-sdk-laravel/network/members)
 
 ## Zkteco Laravel SDK ##
 This package easy to use functions to ZKTeco Device activities with **laravel** framework. 
@@ -28,7 +28,7 @@ The format of the data are: binary, string, and number. The length of the parame
 
 Begin by installing this package through Composer. Just run following command to terminal-
 
-    composer require laradevsbd/sanshin-zkteco-sdk
+    composer require sanshin/sanshin-zkteco-sdk
 
 Once this operation completes, the final step is to add the service provider. Open config/app.php, and add a new item to
 the providers array.
@@ -37,7 +37,7 @@ the providers array.
     'providers' => [
 
             // .........................
-            SanshinLaradevsbd\Zkteco\ZktecoServiceProvider::class,
+            Sanshin\Zkteco\ZktecoServiceProvider::class,
 
         ]
     
@@ -50,7 +50,7 @@ If you want to change Zkteco  settings , you need to publish its config file(s).
 
 ##### Create an object of ZktecoLib class.
 
-        use SanshinLaradevsbd\Zkteco\Http\Library\ZktecoLib;
+        use Sanshin\Zkteco\Http\Library\ZktecoLib;
     
     //  1 s't parameter is string $ip Device IP Address
     //  2 nd  parameter is integer $port Default: 4370
@@ -182,7 +182,7 @@ If you want to change Zkteco  settings , you need to publish its config file(s).
 
 ## Example
 
-        use SanshinLaradevsbd\Zkteco\Http\Library\ZktecoLib;
+        use Sanshin\Zkteco\Http\Library\ZktecoLib;
         
         class ZktecoController extends Controller
         {

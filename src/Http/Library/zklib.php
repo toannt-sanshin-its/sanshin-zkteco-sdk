@@ -1,5 +1,5 @@
 <?php
-namespace SanshinLaradevsbd\Zkteco\Http\Library;
+namespace Sanshin\Zkteco\Http\Library;
 
 class ZKLib
 {
