@@ -1,0 +1,26 @@
+{
+    "name": "laradevsbd/sanshin-zkteco-sdk",
+    "description": "ZKLibrary is PHP Library for ZK Time & Attendance Devices",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nguyễn Toàn",
+            "email": "nguyentoan31072k3@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Laradevsbd\\Zkteco\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laradevsbd\\Zkteco\\ZktecoServiceProvider"
+            ]
+        }
+    }
+}
